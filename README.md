@@ -1,1 +1,1 @@
-https://kodi-ezike.github.io/portfolio/portfolio.html
+https://kodi-ezike.github.io/portfolio/
