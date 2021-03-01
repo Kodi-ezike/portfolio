@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen">
+    <link rel="icon" type="image/jpg" sizes="32x32" href="./images/favicon.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap">
+    <script src="https://kit.fontawesome.com/a21dc2a35f.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html" class="kodi"><h1>DKoder</h1></a>
+        </div>
+        <a onclick="closeNav()" class="close" id="close" href="javascript:;">
+            <i class="fas fa-times"></i>
+        </a>
+        <a onclick="openNav()" id="open" class="open" href="javascript:;">
+            <i id="open-bar" class="fas fa-bars"></i>
+        </a>
+        <div class="menu-container">
+            <nav id="links" class="menu">
+                <li><a class="item" href="index.html">Home</a></li>  
+                <li><a class="item" href="#about">About</a></li>
+                <li><a class="item" href="#projects">Projects</a></li>
+                <li id="contact-link"><a class="item" href="#contact">Contact</a></li>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="flex1">
+            <div class="text">
+                <p class="hello">Hi, I'm Kodi</p>
+                <p>I’m a front end web developer based in Lagos, Nigeria. I have the necessary skills and a great amount of experience to produce functional and interactive websites. It is of great importance to me that people have a good user experience on all websites that I create.
+                </p>
+                <p>I am enthusiastic about my work and I produce utmost results.</p>
+            </div>
+            <div class="image"><img src="./images/kodinewest.jpg" alt="kodi" class="kodi-img"></div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
+            <h1 class="project">Projects</h1>
+            <div class="flex-container">
+                <div class="hurdle">
+                    <div class="img"><a href="https://kodi-ezike.github.io/jevelin-restaurant/"><img src="./images/jevelin.jpg" alt="hurdle" class="pro-img"></a></div>
+                    <div class="note">
+                        <h1>Jevelin</h1>
+                        <p>This was a recreation of a Wordpress theme</p>
+                        <p>The website was created for a restaurant, it clearly shows their chief staff, menu, reservation and contact details.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="base">
+                    <div class="img"><a href="https://kodi-ezike.github.io/fylo-dark-theme/"><img src="./images/fylo_dark.jpg" alt="fylo" class="pro-img"></a></div>
+                    <div class="note">
+                        <h1>Fylo dark theme landing page</h1>
+                        <p>This was a Frontendmentor challenge.</p>
+                        <p>The Fylo dark theme landing page was created for a website where one can store files and access them no matter their location.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="hurdle">
+                    <div class="img"><a href="https://kodi-ezike.github.io/manage/"><img src="./images/manage.jpg" alt="hurdle" class="pro-img"></a></div>
+                    <div class="note">
+                        <h1>Manage Landing page</h1>
+                        <p>This was a Frontendmentor challenge.</p>
+                        <p>The manage landing page is a website that was created to enable a large number of people communicate on a platform.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-container">
+                <div class="fylo">
+                    <div class="img"><a href="https://kodi-ezike.github.io/social-media/"><img src="./images/social.jpg" alt="fylo" class="pro-img"></a></div>
+                    <div class="note">
+                        <h1>Social Media Dashboard</h1>
+                        <p>This was a Frontendmentor challenge.</p>
+                        <p>The dashboard was created to monitor the amount of followers and engagements on all social media platforms for an individual. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container4">
+            <div class="build">
+              <div><h1> Let's work together</h1></div>
+              <div><button id="build">Contact me</button> </div>
+            </div>
+        </div>
+    
+            
+            <section id="contact">
+                <a href="#" class="kodi"><h1>DKoder</h1></a>
+                <h2>Contact</h2>
+                <p>Phone: +2348135379531</p>
+                <p>Email: kodiezzy@gmail.com</p>
+                <p>You can also contact me on
+                <a href="https://m.facebook.com/kodi.ezike">Facebook</a>,  
+                <a href="https://www.instagram.com/kodi_ezzy/">Instagram </a>and 
+                <a href="https://www.twitter.com/kodiezzy/">Twitter</a>
+                </p>
+               
+                   <p class="attribution">&copy; 2020 DKoder. Developed by Ezike Kodi </p>
+            </section>
+            
+    </section>
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
