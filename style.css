@@ -47,11 +47,11 @@ li a:hover{
     display: flex;
     justify-content: space-between;
     padding: 4rem;
+    align-items: center;
 }
 .text{
     width: 60%;
     margin-right: 4rem;
-    margin-top: 10rem;
     color: white;
 }
 .hello{
