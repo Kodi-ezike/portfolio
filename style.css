@@ -62,7 +62,7 @@ li a:hover{
     
 }
 #about{
-    background-image: url(./images/pono.jpg);
+    background-image: url(./images/black.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
@@ -109,9 +109,15 @@ li a:hover{
 }
 #contact{
     padding: 8rem 4rem 0 4rem;
-    background-color: rgb(5, 5, 29);
+    /* background-color: rgb(5, 5, 29); */
     color: white;
     line-height: 2;
+    background-image: url(./images/black.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: auto;
+
 }
 #contact a{
     color: turquoise;
